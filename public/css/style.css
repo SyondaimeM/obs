@@ -274,7 +274,23 @@ section.header-bg-parent {
     margin: 20px 0px 0px;
 }
 
+a.common-btn {
+    text-decoration: none;
+    background: linear-gradient(90deg, #8b81ef, #6759e8);
+    padding: 15px 30px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-family: "Nunito";
+    font-weight: 800;
+    cursor: pointer;
+    margin: 20px 0px;
+    transition: all 0.5s ease;
+}
 
+a.common-btn:hover {
+    background: linear-gradient(180deg, #6759e8, #8b81ef);
+}
 
 button.common-btn a {
     color: #fff;
@@ -730,6 +746,7 @@ div#faq-accordion {
 section#project {
     position: relative;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .owl-carousel.owl-theme.owl-loaded.owl-drag {
@@ -827,6 +844,19 @@ button.price-btn:hover {
 }
 
 /*blog css*/
+.view-more {
+    display: inline-block;
+    background-color: bisque;
+    border-radius: 10%;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 45%;
+}
+
+.view-more a {
+    text-decoration: none;
+    color: black;
+}
 
 .blog-col {
     float: left;
@@ -834,13 +864,18 @@ button.price-btn:hover {
     margin-left: 3%;
     margin-top: 45px;
     overflow: hidden;
-    background-color: blue;
+    background-color: #48b4e2;
     border-radius: 50px;
     max-height: 350px;
     padding: 20px;
+    text-align: center;
 }
 
-
+.product-img {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
 
 .blog-col span {
     color: #fff;
@@ -853,6 +888,13 @@ button.price-btn:hover {
 }
 
 
+.blog-col h1 {
+    color: #fff;
+    font-size: 30px;
+    font-family: "Nunito";
+    font-weight: 800;
+}
+
 .blog-col h3 {
     color: #fff;
     font-size: 15px;
@@ -860,17 +902,13 @@ button.price-btn:hover {
     font-weight: 800;
 }
 
-
 .blog-col p {
     color: white;
 
 }
 
-
-
-
 .blog-col a {
-    color: #ff881f;
+    color: bisque;
     font-size: 13px;
     font-family: "Rubik";
     font-weight: 600;
@@ -880,7 +918,7 @@ button.price-btn:hover {
 }
 
 .blog-col a {
-    color: #ff881f;
+    color: bisque;
     font-size: 13px;
     font-family: "Rubik";
     font-weight: 600;
@@ -1040,12 +1078,31 @@ input input.submit-btn:hover {
 
 }
 
+.footer-col ul li {
+    list-style: none;
+    color: maroon;
+    font-family: "Rubik";
+    font-size: 16px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
 p.copyright-footer {
     text-align: center;
     font-family: "Rubik";
     padding: 20px 0px;
 }
 
+p.copyright-footer a {
+    text-decoration: none;
+}
+
 hr.footer-hr {
     margin: 60px 0px 20px;
+}
+
+footer a {
+    text-decoration: none;
 }

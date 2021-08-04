@@ -37,9 +37,7 @@
 </head>
 
 <body>
-
-
-    {{-- <x-preloader /> --}}
+    @include('frontend.includes.header')
 
     <main>
         @yield('content')
@@ -51,9 +49,25 @@
 
 <!-- Scripts -->
 @stack('before-scripts')
+<script type="text/javascript" src="{{ asset('js/jquery-3.2.1.min.js') }}"></script>
+<script src="{{ asset('js/jquery-ui.min.js') }}"></script>
+<script src="https://rawgit.com/kottenator/jquery-circle-progress/1.2.2/dist/circle-progress.js"></script>
 
-{{-- <script src="{{ mix('js/frontend.js') }}"></script> --}}
+<script>
+    $(document).ready(function() {
+        $('#mob-menu').toggle('hide');
+        $('#toggle-bar').click(function() {
+            $('#mob-menu').toggle('show');
+        });
+    });
 
+    //move to top of the website
+    $('#arrow').click(function() {
+        $('html, body').animate({
+            scrollTop: 0
+        }, 1500);
+    })
+</script>
 @stack('after-scripts')
 
 </html>

@@ -352,3 +352,7 @@
     }
 
 }
+
+img.avatar.avatar-sm.rounded-circle {
+    width: 20px;
+}
