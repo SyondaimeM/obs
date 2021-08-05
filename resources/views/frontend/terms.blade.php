@@ -2,6 +2,10 @@
 
 @section('title') Terms &amp; Conditions - {{ config('app.name') }} @endsection
 
+@push('after-styles')
+    <link rel="stylesheet" href="{{ asset('css/backend.css') }}">
+@endpush
+
 @section('content')
     <div class="page-header page-header-small clear-filter" filter-color="orange">
         <div class="page-header-image" data-parallax="true"
