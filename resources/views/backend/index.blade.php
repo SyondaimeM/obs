@@ -100,7 +100,7 @@
                     <div class="progress progress-xs my-2">
                         <div class="progress-bar bg-gradient-success" role="progressbar" style="width: 25%"
                             aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div><small class="text-muted">Widget helper text</small>
+                    </div><small class="text-muted">Widget helper texts</small>
                 </div>
             </div>
         </div>
