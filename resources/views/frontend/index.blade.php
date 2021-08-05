@@ -276,7 +276,7 @@
         <div class="container">
             <div class="form-par">
                 <h2>Get IN Touch With US !</h2>
-                <form id="my-form" action="https://formspree.io/f/moqyvzzo" method="POST">
+                <form id="my-form" method="POST">
                     <input type="text" placeholder="Your Name" class="f-name form-com" />
                     <input type="email" placeholder="Email" class="em-input form-com" />
                     <input type="tel" id="phone" name="phone" class="phone-input form-com" placeholder="Mobile No">

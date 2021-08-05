@@ -3,9 +3,9 @@
 @section('title') {{ $$module_name_singular->name }} @endsection
 
 @push('before-styles')
-
     <link rel="stylesheet" href="{{ asset('css/backend.css') }}">
 @endpush
+
 @section('content')
     <article>
         <section class="section-header bg-primary text-white pb-7 pb-lg-11">

@@ -4,9 +4,9 @@
 
 
 @push('after-styles')
-
     <link rel="stylesheet" href="{{ asset('css/backend.css') }}">
 @endpush
+
 @section('content')
     <section class="section-header bg-primary text-white pb-7 pb-lg-11">
         <div class="container">
@@ -15,10 +15,6 @@
                     <h1 class="display-2 mb-4">
                         Brand Products
                     </h1>
-                    <p class="lead">
-                        We publish articles on a number of topics. We encourage you to read our posts and let us know your
-                        feedback. It would be really help us to move forward.
-                    </p>
 
                     @include('frontend.includes.messages')
                 </div>
